@@ -2,6 +2,7 @@ package com.driver;
 
 public class F1 extends Car {
     Vehicle vehicle=new Vehicle("Game");
+
     public F1(String name, boolean isManual) {
        super(name,1,1,1,isManual,"Testing",1);
         //Use arbitrary values for parameters which are not mentioned
@@ -48,6 +49,6 @@ public class F1 extends Car {
     }
 
     private int getCurrentDirection() {
-        return 0;
+        return 1;
     }
 }
